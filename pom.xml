@@ -28,6 +28,7 @@
             <version>1.2.3</version>
         </dependency>
 
+        <!--    基准测试    -->
         <dependency>
             <groupId>org.openjdk.jmh</groupId>
             <artifactId>jmh-core</artifactId>
@@ -38,6 +39,13 @@
             <groupId>org.openjdk.jmh</groupId>
             <artifactId>jmh-generator-annprocess</artifactId>
             <version>1.32</version>
+        </dependency>
+
+        <!--   查看对象头信息     -->
+        <dependency>
+            <groupId>org.openjdk.jol</groupId>
+            <artifactId>jol-core</artifactId>
+            <version>0.16</version>
         </dependency>
 
         <dependency>

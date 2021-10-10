@@ -6,7 +6,7 @@
     <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
         <encoder>
             <pattern>
-                %date{HH:mm:ss} [%t] %logger - %m%n
+                %date{HH:mm:ss:SSS} [%t] %logger - %m%n
             </pattern>
         </encoder>
     </appender>
